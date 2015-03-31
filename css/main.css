@@ -1,0 +1,48 @@
+body{
+	background:#cdffe6;
+	margin:0;
+}
+
+/**********************
+	  Header CSS
+**********************/
+header{
+	text-align: center;
+	margin:1%;
+}
+
+/*** Navigation ***/
+nav{
+	text-align: center;
+	width:50%;
+	margin:2% auto;
+}
+nav > ul > li{
+	list-style: none;
+	display:inline-block;
+	margin-right:5%;
+	text-align: center;
+}
+
+nav a:link{
+	color:#333;
+	text-decoration:none;
+}
+
+nav a:visited{
+	color:#333;
+	text-decoration:none;
+}
+
+/**********************
+   Main Content CSS
+**********************/
+#mainContent{
+	width:46.5em;
+	margin:-4.65% auto;
+	text-align: center;
+}
+
+#baby{
+	width:46.25em;
+}
