@@ -11,6 +11,10 @@ header{
 	margin:1%;
 }
 
+#banner{
+	width:80%;
+}
+
 /*** Navigation ***/
 nav{
 	text-align: center;
@@ -38,11 +42,79 @@ nav a:visited{
    Main Content CSS
 **********************/
 #mainContent{
-	width:46.5em;
-	margin:-4.65% auto;
+	margin: auto;
+	width:62%;
+	margin-top:-5%;
 	text-align: center;
 }
 
 #baby{
-	width:46.25em;
+	width:98%;
 }
+
+/**********************
+	  Footer CSS
+**********************/
+footer{
+	width: 62%;
+	margin:5% auto;
+	text-align: center;
+}
+hr{
+	width:16%;
+	height:1%;
+	float:left;
+	background:#333;
+}
+
+.button{
+	height:3em;
+	width:15%;
+	background: #333;
+	float:left;
+	margin: -1.5% 1%;
+	text-align: center;
+}
+
+p{
+	font-family:'Roboto';
+	font-size:1em;
+}
+
+/*** Footer Navigation ***/
+footer > a:link{
+	color:#ccc;
+	text-decoration: none;
+}
+
+footer > a:visited{
+	color:#ccc;
+	text-decoration: none;
+}
+
+footer > a:hover{
+	color:#cdffe6;
+	text-decoration: none;
+}
+
+footer > a:active{
+	color:#cdffe6;
+	text-decoration: none;
+}
+
+/*** Copyright Info ***/
+#copyright{
+	clear:both;
+	margin:4%;
+}
+
+
+
+
+
+
+
+
+
+
+
