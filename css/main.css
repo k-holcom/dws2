@@ -42,6 +42,10 @@ nav a:visited{
 	text-decoration:none;
 }
 
+nav a:hover{
+	color:#111;
+}
+
 /**********************
    Main Content CSS
 **********************/
@@ -56,11 +60,8 @@ nav a:visited{
 	width:98%;
 }
 
-/**********************
-	  Footer CSS
-**********************/
-footer{
-	width: 62%;
+section{
+	width: 100%;
 	margin:5% auto;
 	text-align: center;
 }
@@ -85,35 +86,33 @@ p{
 	font-size:1em;
 }
 
-/*** Footer Navigation ***/
-footer > a:link{
+/*** Section Navigation ***/
+section > a:link{
 	color:#ccc;
 	text-decoration: none;
 }
 
-footer > a:visited{
+section > a:visited{
 	color:#ccc;
 	text-decoration: none;
 }
 
-footer > a:hover{
+section > a:hover{
 	color:#cdffe6;
 	text-decoration: none;
 }
 
-footer > a:active{
+section > a:active{
 	color:#cdffe6;
 	text-decoration: none;
 }
 
-/*** Copyright Info ***/
-#copyright{
-	clear:both;
-	margin:4%;
+/**********************
+  	  Footer CSS
+**********************/
+footer+p{
+	color:#CC0000;
 }
-
-
-
 
 
 
