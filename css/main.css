@@ -21,6 +21,10 @@ nav{
 	width:50%;
 	margin:2% auto;
 }
+nav + ul{
+	font-family:'roboto', sans-serif;
+}
+
 nav > ul > li{
 	list-style: none;
 	display:inline-block;
