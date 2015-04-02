@@ -86,3 +86,51 @@ section{
 	clear:both;
 	font-size:1em;
 }
+
+/*** MEDIA QUERIES ***/
+@media screen and (min-width: 800px) and (max-width:1200px){
+	aside{
+		width:99%;
+		margin:4% 0 2%;
+	}
+
+	#form{
+		width:99%;
+	}
+
+}
+
+@media screen and (min-width:480px) and (max-width: 800px){
+	aside{
+		width:99%;
+		margin:4% 0 2%;
+	}
+
+	#form{
+		width:99%;
+	}
+}
+
+@media screen and (max-width:480px){
+	aside{
+		width:99%;
+		margin:4% 0 2%;
+	}
+
+	#form{
+		width:99%;
+	}
+
+	.textInput{
+		width:99%;
+	}
+
+	.textArea{
+		width:99%;
+	}
+
+	.formButton{
+		width:99%;
+		margin:5% auto;
+	}
+}
