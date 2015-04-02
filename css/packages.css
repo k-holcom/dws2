@@ -1,0 +1,67 @@
+/****************
+   Header CSS
+****************/
+li:nth-child(3){
+	font-weight:bold;
+}
+
+li:nth-child(2){
+	font-weight:normal;
+}
+
+li:nth-child(1){
+	font-weight: normal;
+}
+
+/****************
+   Article CSS
+****************/
+article{
+	width:99%;
+	text-align: center;
+	overflow: auto;
+}
+article h1{
+	font-size: 3em;
+	color:#333;
+	text-decoration:underline;
+	margin-top:2%;
+}
+.package{
+	width:98%;
+	margin:auto;
+	margin:1% auto;
+	padding:1%;
+	background:#333;
+	color:#efefef;
+	border-radius: 1em;
+}
+#includes{
+	width:70%;
+	margin:auto;
+}
+
+#includes > ul{
+	text-align:left;
+}
+
+/*** Media Queries ***/
+@media screen and (max-width:480px){
+	article h1{
+		font-size:2em;
+		margin:1%;
+	}
+	#includes{
+		width: 95%;
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,5 @@
+/*** MAIN CSS ***/
+/*** ALSO MAIN CSS FOR ALL PAGES ***/
 body{
 	background:#cdffe6;
 	margin:0;
@@ -21,15 +23,15 @@ nav{
 	width:50%;
 	margin:2% auto;
 }
-nav + ul{
-	font-family:'roboto', sans-serif;
-}
+
 
 nav > ul > li{
 	list-style: none;
 	display:inline-block;
 	margin-right:5%;
 	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
 }
 
 nav a:link{
@@ -43,9 +45,16 @@ nav a:visited{
 }
 
 nav a:hover{
-	color:#111;
+	text-decoration: underline;
 }
 
+nav a:active{
+	text-decoration: underline;
+}
+
+li:nth-child(1){
+	font-weight:bold;
+}
 /**********************
    Main Content CSS
 **********************/
@@ -54,7 +63,6 @@ nav a:hover{
 	width:62%;
 	margin-top:-5%;
 	text-align: center;
-	overflow:auto;
 }
 
 #baby{
@@ -63,12 +71,14 @@ nav a:hover{
 
 section{
 	width: 100%;
+	height:3.5em;
 	margin:5% auto;
 	text-align: center;
 }
 hr{
 	width:16%;
 	height:1%;
+	margin-top:3%;
 	float:left;
 	background:#333;
 }
@@ -78,7 +88,7 @@ hr{
 	width:15%;
 	background: #333;
 	float:left;
-	margin: -1.5% 1%;
+	margin:0 1%;
 	text-align: center;
 }
 
@@ -113,18 +123,92 @@ section > a:active{
 **********************/
 footer{
 	width:62%;
-	margin:5% auto;
+	margin:auto;
 	text-align: center;
 	clear:both;
-}
-footer + p {
-	margin:10%;
-	color:red;
+	font-size: 0.75em;
 }
 
+/*** Media Queries ***/
+@media screen and (min-width: 1200px){
+	.navigation{
+		display:none;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width:1200px){
+	/**********************
+   		Main Content CSS
+	**********************/
+	hr{
+		display:none;
+	}
+	.navigation{
+		display:none;
+	}
+	section{
+		width:70%;
+	}
+	.button{
+		width:23%;
+	}
+	section  p{
+		margin-top:15%;
+		font-size: 0.75em;
+	}
+
+}
+
+@media screen and (min-width:480px) and (max-width: 800px){
+	hr{
+		display:none;
+	}
+	nav > ul{
+		display:none;
+	}
+
+	section{
+		height:;
+		width:100%;
+	}
+
+	.button{
+		clear:both;
+		margin:1%;
+		width:99%;
+	}
+
+	section p{
+		margin-top:3%;
+	}
+}
+
+@media screen and (max-width:480px){
+	hr{
+		display:none;
+	}
+
+	nav > ul{
+		display:none;
+	}
 
 
+	section{
+		height:;
+		width:100%;
+	}
 
+	.button{
+		clear:both;
+		margin:1%;
+		width:99%;
+	}
+
+	section p{
+		margin-top:5.5%;
+	}
+
+}
 
 
 

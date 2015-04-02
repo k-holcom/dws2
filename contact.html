@@ -4,6 +4,7 @@
 		<meta charset="utf-8" />
 		<title>Lifetime Images</title>
 		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/contact.css" />
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>	
 	</head>
 	<body>
@@ -11,8 +12,8 @@
 		<header>
 			<nav>
 				<ul class="test">
-					<li id="current"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About Us</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li id="current"><a href="about.html">About Us</a></li>
 					<li><a href="packages.html">Packages</a></li>
 					<li><a href="#">Contact Us</a></li>
 				</ul>
@@ -22,7 +23,20 @@
 		<!-- Header Ends -->
 		<!-- Main Content -->
 		<div id="mainContent">
-			<img id="baby" src="images/baby.jpg" alt="Baby's First Birtday"/>
+			<aside>
+				<h2>Contact Us</h2>
+				<h4>&</h4>
+				<h3>Let us capture your wedding!</h3>
+			</aside>
+			<aside id="form">
+				<form method="POST" name="contact" action="http://www.example.com/form.php">
+					<input type="text"class="textInput" name="name" placeholder="Name"/>
+					<input type="text" class="textInput" name="email" placeholder="Email Address" />
+					<textarea class="textArea" name="message" placeholder="Message"></textarea><br />
+					<input type="submit" class="formButton" name="submit" value="Submit" />
+				</form>
+			</aside>
+
 			<section>
 				<hr/>
 				<a href="index.html"><div class="navigation button"><p>Home</p></div></a>
