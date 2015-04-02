@@ -54,6 +54,7 @@ nav a:hover{
 	width:62%;
 	margin-top:-5%;
 	text-align: center;
+	overflow:auto;
 }
 
 #baby{
@@ -110,8 +111,14 @@ section > a:active{
 /**********************
   	  Footer CSS
 **********************/
-footer+p{
-	color:#CC0000;
+footer{
+	width:62%;
+	margin:5% auto;
+	text-align: center;
+	clear:both;
+}
+footer + p {
+	margin:10%;
 }
 
 
