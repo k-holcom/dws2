@@ -1,0 +1,134 @@
+body{
+	background:#2f1f1a;
+}
+
+/** Navigation Information **/
+
+/** Off-Canvas Navigation **/
+.tab-bar{
+	background:#2f1f1a;
+}
+.left-off-canvas-menu{
+	background:#2f1f1a;
+}
+ul.off-canvas-list li a:hover{
+	background:#A66953;
+}
+
+/** Top Bar Navigation **/
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	background:#A66953;
+	color:#efefef;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button):hover{
+	background:#A66953;
+	color:#efefef;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+	background:#A66953;
+	color:#efefef;
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+	background:#2f1f1a;
+	color:#efefef;
+}
+.top-bar{
+	background:#2f1f1a;
+}
+.top-bar .name h1{
+	display:none;
+}
+
+/** Main Content **/
+#mainContent{
+}
+
+/*** Slider CSS ***/
+.row.full{
+	max-width:100%;
+}
+.medium-12.columns{
+	padding:0;
+}
+.orbit-bullets-container{
+	display:none;
+}
+.orbit-slide-number{
+	display:none;
+}
+#welcome{
+	margin:4% auto;
+}
+#slider > li >	img{
+	width:100%;
+}
+
+/*** About CSS ***/
+#about{
+	text-align: center;
+	background:#7A5142;
+}
+#about > .about{
+	margin:5% auto;
+}
+.bio{
+	text-align: center;
+	margin-top:5%;
+}
+.bio h3{
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+
+/*** Work ***/
+#transition{
+	height:50px;
+}
+#work{
+	text-align: center;
+	margin-bottom:4%;
+}
+#work h3{
+	font-weight:bold;
+	text-decoration: underline;
+	color:#efefef;
+	margin-bottom:5%;
+}
+
+/*** Contact ***/
+#contact{
+	padding:2%;
+	text-align: center;
+	background:#A66953;
+	color:#efefef;
+}
+#tagLine{
+	margin:10% auto;
+	color:#efefef;
+}
+textarea{
+	height:100px;
+}
+.button{
+	background:#2f1f1a;
+	border-color: #2f1f1a;
+}
+.button:hover{
+	background:#7F5447;
+	border-color: #2f1f1a;
+}
+
+/*** Footer ***/
+footer > p{
+	text-align:center;
+	color:#efefef;
+	font-size:8px;
+	margin:3%;
+}
+
+
+
+
+
+

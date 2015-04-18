@@ -1,0 +1,34 @@
+/** Main Form Stylesheet **/
+
+body{
+	margin:1%;
+	background:url('../img/bg.jpg') no-repeat;
+	background-size: cover;
+}
+header{
+	position:absolute;
+	width:98%;
+}
+header > h1{
+	position:relative;
+	left:20px;
+	color:#efefef;
+	width:400px;
+}
+#utility a:link{
+	text-align: center;
+	color:#efefef;
+	text-decoration: none;
+	position:relative;
+	right:20px;
+	top:-80px;
+}
+nav{
+	float:right;
+}
+
+h5{
+	text-align: center;
+	float:right;
+	width:50px;
+}

@@ -1,0 +1,155 @@
+body{
+	background:#cdffe6;
+	margin:0;
+}
+.header{
+	text-align:center;
+}
+#mainContent{
+	text-align: center;
+}
+
+/*********************
+	  Navigation
+*********************/
+
+#banner{
+	width:80%;
+}
+
+/*** Navigation ***/
+nav{
+	visibility:hidden;
+	text-align: center;
+	width:50%;
+	margin:2% auto;
+	height:0px;
+}
+
+
+nav > ul > li{
+	list-style: none;
+	display:inline-block;
+	margin-right:5%;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Roboto', sans-serif;
+}
+
+nav a:link{
+	color:#333;
+	text-decoration:none;
+}
+
+nav a:visited{
+	color:#333;
+	text-decoration:none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+nav a:active{
+	text-decoration: underline;
+}
+
+li:nth-child(1){
+	font-weight:bold;
+}
+h2,h3,h4{
+	margin: 0.5%;
+	font-family: 'Roboto', sans-serif;
+}
+/*****************
+	 Form CSS
+*****************/
+.textInput{
+	width:99%;
+	height:1.5em;
+	padding:1%;
+	box-shadow:0.5em 0.5em 0.5em #8ee2b8;
+	margin-bottom:1%;
+	font-size: 1em;
+	border-radius: 0.25em
+}
+.textArea{
+	width:99%;
+	height:5em;
+	padding:1%;
+	font-size: 1.1em;
+	font-family: 'Roboto', sans-serif;
+	box-shadow:0.5em 0.5em 0.5em #8ee2b8;
+	border-radius: 0.25em
+}
+
+.formButton{
+	height:3em;
+	width:99%;
+	background: #333;
+	float:right;
+	margin:3% auto;
+	text-align: center;
+	color:#efefef;
+	clear:both;
+	font-size:1em;
+}
+
+.footer{
+	font-size:0.75em;
+	text-align:center;
+	margin-top:1%;
+}
+
+
+/*** MEDIA QUERIES ***/
+@media (min-width: 400px){
+
+}
+
+@media (min-width: 550px){
+	h2, h3, h4{
+		font-size:1.83em;
+	}
+}
+
+@media (min-width: 750px){
+
+}
+
+@media (min-width: 1000px){
+	nav{
+		visibility: visible;
+	}
+}
+
+@media (min-width: 1200px){
+	nav{
+		visibility: visible;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -41,17 +41,6 @@ section{
 	margin-top:5%;
 }
 
-.formButton{
-	height:3em;
-	width:25%;
-	background: #333;
-	float:right;
-	margin:3% 11%;
-	text-align: center;
-	color:#efefef;
-	clear:both;
-	font-size:1em;
-}
 
 /*****************
 	 Form CSS
@@ -86,6 +75,19 @@ section{
 	clear:both;
 	font-size:1em;
 }
+
+.formButton{
+	height:3em;
+	width:25%;
+	background: #333;
+	float:right;
+	margin:3% 11%;
+	text-align: center;
+	color:#efefef;
+	clear:both;
+	font-size:1em;
+}
+
 
 /*** MEDIA QUERIES ***/
 @media screen and (min-width: 800px) and (max-width:1200px){
