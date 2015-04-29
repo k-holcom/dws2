@@ -2,21 +2,149 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-    	<title>Guild Application</title>
-    	<link href="css/main.css" rel="stylesheet"  />
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
+
+		<title>Smith's Legal Help</title>
+		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 
 	<body>
+		<!-- Header -->
 		<header>
-			<h1 id="guildName">Mischief Mafia</h1>
-			<div id="utility">
-				<h5><a href="#">Register</a></h5>
-				&nbsp;
-				<h5><a href="#">Login</a></h5>
-			</div>
+			<img src="img/logo.png" alt="Smith's Legal Help" />
 			<nav>
-
-			</nav>
+            	<ul>
+                	<li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
 		</header>
+		<!-- Header Ends -->
+		<!-- Main Section -->
+		<section>
+			<h2>Legal Aid Position</h2>
+			<p>Please fill out the following information. We will get back to you after we review your application.</p>
+			<form>
+				<label class="section">General Applicant Information</label><br/><br />
+
+				<!-- Name -->
+				<label class="subSection">Enter Your Name</label><br />
+				<input type="text" name="lastName" placeholder="Last Name"/>
+				<input type="text" name="firstName" placeholder="First Name"/>
+				<input type="text" name="middleName" placeholder="Middle Name"/>
+
+				<!-- Current Date -->
+				<input type="text" id="date" name="date" placeholder="Today's Date" /><br /><br />
+
+				<!-- Date of Birth -->
+				<label class="subSection">Enter Your Birthday</label><br />
+				<select id="month">
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+					<option>Apr</option>
+					<option>May</option>
+					<option>June</option>
+					<option>July</option>
+					<option>Aug</option>
+					<option>Sept</option>
+					<option>Oct</option>
+					<option>Nov</option>
+					<option>Dec</option>
+				</select>
+
+				<input type="number" id="day" name="day" min="1" max="31" placeholder="Day" />
+				<input type="text" id="year" name="year" placeholder="Year" /><br /><br />
+
+				<!-- Phone Number -->
+				<label class="subSection">Phone Number</label><br />
+				<input type="text" name="phoneNumber" placeholder="(555) 555-5555" />
+				<br /><br />
+
+				<!-- Address -->
+				<label class="subSection">Enter Your Address</label><br />
+				<input type="text" class="address" name="address" placeholder="Street Address" />
+				<input type="text" class="city" name="city" placeholder="City" />
+				<input type="text" class="state" name="state" placeholder="State" />
+				<input type="text" class="zip" name="zip" placeholder="Zip Code" /><br /><br />
+
+				<!-- Position -->
+				<label class="subSection">What Form Of Law Do You Want To Practice?</label><br />
+				<input type="radio" class="family" name="family" value="family" /><label class="famLabel">Family</label>
+				<input type="radio" class="criminal" name="criminal" value="criminal"/><label class="crimLabel">Criminal</label>
+				<input type="radio" class="civil" name="civil" value="civil"/><label class="civLabel">Civil</label> <br/> <br />
+
+				<!--Education -->
+				<label class="subSection">Enter Your Education</label><br /><br/>
+				<label>High School</label><br/>
+				<input type="text" name="highSchool" class="schoolName" placeholder="High School Name" />
+				<input type="text" name="highSchool" placeholder="City"/>
+				<input type="text" name="highSchool" placeholder="State" /> <br /><br />
+
+				<label>Undergrad</label><br/>
+				<input type="text" name="undergrad" class="schoolName" placeholder="College Name" />
+				<input type="text" name="undergrad" placeholder="City"/>
+				<input type="text" name="undergrad" placeholder="State" /> <br /><br />
+
+				<label>Other</label><br/>
+				<input type="text" name="other" class="schoolName" placeholder="College Name" />
+				<input type="text" name="other" placeholder="City"/>
+				<input type="text" name="other" placeholder="State" /> 
+				<p><a href="#">Add Another School</a></p>
+
+				<!-- Previous Employment -->
+				<label class="subSection">Previous Employment</label><br /><br />
+				<input type="text" class="employer" name="employer" placeholder="Employer" />
+				<input type="text" class="position" name="position" placeholder="Position" /><br />
+				<input type="text" class="address" name="address" placeholder="Street Address" />
+				<input type="text" class="city" name="city" placeholder="City" />
+				<input type="text" class="state" name="state" placeholder="State" />
+				<input type="text" class="zip" name="zip" placeholder="Zip Code" /><br />
+				<input type="text" name="phoneNumber" placeholder="(555) 555-5555" />
+				<input type="text" name="manager" placeholder="Manager's Name" /><br /><br />
+				<label>How Long Were You There</label><br />
+				<input type="number" min="0" max="25" /><br /><br />
+				<label>Why Did You Leave</label><br />
+				<textarea></textarea>
+				<p><a href="#">Add Another Employer</a></p>
+
+				<!-- References -->
+				<label class="subSection">References</label><br/><br />
+				<label>Reference #1</label><br />
+				<input type="text" name="name" placeholder="Name" />
+				<input type="text" name="phone" placeholder="(555) 555-5555" /><br />
+				<label> Years Known</label><br />
+				<input type="number" name="known" min="1" /><br /> <br />
+				<label>Reference #2</label><br />
+				<input type="text" name="name" placeholder="Name" />
+				<input type="text" name="phone" placeholder="(555) 555-5555" /><br />
+				<label> Years Known</label><br />
+				<input type="number" name="known" min="1" /><br /> <br />
+				<label>Reference #3</label><br />
+				<input type="text" name="name" placeholder="Name" />
+				<input type="text" name="phone" placeholder="(555) 555-5555" /><br />
+				<label> Years Known</label><br />
+				<input type="number" name="known" min="1" /><br /> <br />
+
+				<hr>
+				<!-- Quick Survey -->
+				<label class="section">Survey</label><br /><br />
+				<label id="optional">This is optional, you do <b>not</b> have to complete this. This is so we can provide a better experience in the future for applicants.</label><br /> <br /><br />
+
+				<label class="subSection">Rate Your Experience (1-10)</label><br /><br/>
+				<input type="range" min="1" max="10" step="1" /><br /> <br />
+
+				<label class="subSection">Would You Recommend Us</label><br /><br />
+				<input type="checkbox" id="yes" name="yes" /><label id="yesLabel">Yes</label>
+				<input type="checkbox" id="no" name="yes" /><label id="noLabel">No</label><br />
+
+				<!-- Submit Button -->
+				<input type="submit" name="submit" class="button" value="Submit Your Application" />
+
+			</form>
+		</section>
+		<!-- Main Section Ends -->
+
 	</body>
 </html>

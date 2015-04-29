@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">	
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Blue Mountain Airlines</title>
+		<link href="css/main.css" rel="stylesheet" />
+		<link href="css/register.css" rel="stylesheet" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<a href="index.html">
+				<img src="img/logo.png" alt="Blue Mountain Airlines" />
+			</a>
+			<div id="utilityNav">
+				<div class="util">
+					<a href="#">Help</a>
+				</div>
+				<div class="spacer">
+					|
+				</div>
+				<div class="util active">
+					<a href="#">Rewards Sign-Up</a> 
+				</div>
+				<div class="spacer">
+					|
+				</div>
+				<div class="util">
+					<a href="#">Account Login</a>
+				</div>
+			</div>
+			<nav>
+				<div><a href="#">Rewards</a></div>
+				<div><a href="#">Travel Guide</a></div>
+				<div><a href="#">Book A Flight</a></div>
+				<div><a href="index.html">Home</a></div>
+			</nav>
+		</header>
+		<!-- Header Ends -->
+		<!-- Main Content -->
+		<section>
+			<div id="container">
+				<div id="rewards">
+					<h2>Reward Member Benefits</h2>
+					<ul>
+						<li>Rewards Points for each flight booked.</li>
+						<li>Bonus Rewards Points for special occasions.</li>
+						<li>No blackout dates with Blue Mountain Airlines.</li>
+					</ul>
+				</div>
+				<div id="signUp">
+					<form>
+						<label>Create Your Account</label><br/>
+						<input type="text" name="username" class="username" placeholder="Username" />
+						<input type="password" name="password" class="pass" placeholder="Password" />
+						<input type="password" name="verpass" class="pass" placeholder="Verify Password"/>
+						<select class="question">
+							<option>Select a question...</option>
+							<option>Mother's maiden name?</option>
+							<option>Childhood best friend's first name?</option>
+							<option>Hospital you were born in?</option>
+						</select>
+						<input type="text" name="answer" class="answer" placeholder="Secret Answer" />
+						<select class="question">
+							<option>Select a question...</option>
+							<option>Mother's maiden name?</option>
+							<option>Childhood best friend's first name?</option>
+							<option>Hospital you were born in?</option>
+						</select>
+						<input type="text" name="answer" class="answer" placeholder="Secret Answer" />
+
+						<!--Personal Info -->
+						<label>Let us get to know you better</label> <br />
+						<!-- Name -->
+						<label class="sublabel namelabel">Name</label> <br />
+						<input type="text" class="name" name="firstname" placeholder="First Name"/>
+						<input type="text" class="middle" name="middleinitial" placeholder="MI"/>
+						<input type="text" class="name" name="lastname" placeholder="Last Name"/><br/>
+
+						<!-- Member Info -->
+						<label class="sublabel">Date of Birth</label><br />
+						<select id="month">
+							<option>Month</option>
+							<option>January</option>
+							<option>February</option>
+							<option>March</option>
+							<option>April</option>
+							<option>May</option>
+							<option>June</option>
+							<option>July</option>
+							<option>August</option>
+							<option>September</option>
+							<option>October</option>
+							<option>November</option>
+							<option>December</option>
+						</select>
+						<input type="number" name="day" class="date" min="1" max="31" />
+						<input type="text" class="year" name="year" placeholder="Year"/>
+
+						<!-- Preferred Name --> 
+						<input type="text" class="preferred" name="preferredName" placeholder="Preferred Name"/>
+
+						<!-- Address -->
+						<label class="sublabel addresslabel">Billing Address</label>
+						<input type="text" class="address" name="address" placeholder="Street Address" /><br />
+						<input type="text" class="city" name="city" placeholder="City"/>
+						<input type="text" class="state" name="state" placeholder="State"/>
+						<input type="text" class="zip" name="zipcode" placeholder="Zip Code"/><br />
+
+						<!-- Phone and Email -->
+						<label class="sublabel phoneEmail">How can we contact you?</label><br />
+						<input type="text" name="prefix" class="pre" placeholder="XXX" />
+						<input type="text" name="suffix" class="suffix" placeholder="XXXX" />
+						<select class="typeOfNum">
+							<option>Mobile</option>
+							<option>Home</option>
+							<option>Work</option>
+						</select>
+						<input type="email" name="email" class="email" placeholder="Email Address" />
+						<input type="email" name="verifyemail" class="veremail" placeholder="Verify Email Address" /><br/>
+					
+						<input type="submit" name="submit" class="button" value="Create Account" />
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- Main Section Ends -->
+		<!-- Footer -->
+		<footer>
+			<div class="footer">
+				<h5 id="account">My Account</h5>
+				<ul>
+					<li><a href="#">Log In</a></li>
+					<li><a href="#">Sign Up For Rewards</a></li>
+					<li><a href="#">Forgot Username/Password</a></li>
+					
+				</ul>
+			</div>
+			<div class="footer">
+				<h5>Customer Service</h5>
+				<ul>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">FAQs</a></li>
+					<li><a href="#">Travel Tools</a></li>
+					<li><a href="#">Route Map</a></li>
+					<li><a href="#">Baggage Policies</a></li>
+					<li><a href="#">Refunds</a></li>
+				</ul>
+			</div>
+			<div class="footer">
+				<h5>About Blue Mountain</h5>
+				<ul>
+					<li><a href="#">Mission Statement</a></li>
+					<li><a href="#">Press Room</a></li>
+					<li><a href="#">Investor Relations</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Travel Agents</a></li>
+					<li><a href="#">Legal Information</a></li>
+				</ul>
+			</div>
+
+			<div id="copyright">
+				<p>©2015 Kimerlee Holcom</p>
+			</div>
+		</footer>
+		<!-- Footer Ends -->
+	</body>
+</html>

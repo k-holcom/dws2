@@ -1,0 +1,153 @@
+section{
+	padding:3% 0 0 0;
+	height:960px;
+}
+#container{
+	width:91%;
+	margin:0 4%;
+}
+
+#rewards, #signUp{
+	margin:1.5%;
+	width:45%;
+	float:left;
+	color:#fff;
+	text-align: center;
+}
+h2{
+	text-decoration: underline;
+}
+#rewards ul{
+	position:relative;
+	margin:2% 19.7%;
+	text-align: left;
+	list-style: square;
+	line-height: 1.5em;
+}
+
+/*** Form ***/
+form{
+	margin:2%;
+}
+label{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.sublabel{
+	text-transform: none;
+	position:relative;
+	left:-41%;
+	top:1em;
+}
+
+.namelabel {
+	left:-45%;
+	top:0.5em;
+}
+
+.addresslabel{
+	left:-51.5%;
+	top:0.5em;
+}
+
+.profile{
+	left:-63.5%;
+	top:0;
+}
+
+.phoneEmail{
+	left:-32.4%;
+	top:0.5em;
+}
+
+input{
+	width:46%;
+	margin:2% 1% 1.5% 1%;
+	padding:0.5%;
+	border-radius: 0.3em;
+	box-shadow: 0 0 2em #3d70c3;
+	float:left;
+	font-size: 1em;
+}
+select{
+	float:left;
+	margin:4% 1%;
+	font-size:1em;
+	padding:0.5%;
+}
+.name, .city{
+	width:41%;
+}
+
+.middle{
+	width:6%;
+}
+
+.address{
+	width:96%;
+}
+
+.state{
+	width:16%;
+}
+
+.zip{
+	width:31.5%;
+}
+
+.date{
+	margin-top:3.55%;
+	width:13%;
+}
+
+.year{
+	margin-top:3.55%;
+	width:13%;
+}
+
+.preferred{
+	width:38%;
+	margin-top:3.55%;
+}
+
+.areaCode, .pre{
+	width:8%;
+	text-align: center;
+}
+
+.suffix{
+	width:10%;
+	text-align: center;
+}
+
+.email{
+	width:58.55%;
+}
+
+.veremail{
+	width:58.55%;
+}
+
+.typeOfNum{
+	margin-top:1.8%;
+}
+
+.button{
+	width:97%;
+	background:#8d8384;
+	border:#8d8384;
+	color:#fff;
+}
+
+.username{
+	width:95.5%;
+}
+
+.question{
+	width:97.5%;
+}
+
+.answer{
+	margin:0 1% 2%;
+	width:95.5%;
+}
