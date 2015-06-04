@@ -1,13 +1,10 @@
-section{
-	padding:3% 0 0 0;
-	height:960px;
-}
+
 #container{
 	width:91%;
 	margin:0 4%;
 }
 
-#rewards, #signUp{
+#reward, #signUp{
 	margin:1.5%;
 	width:45%;
 	float:left;
@@ -17,12 +14,13 @@ section{
 h2{
 	text-decoration: underline;
 }
-#rewards ul{
+#reward ul{
 	position:relative;
-	margin:2% 19.7%;
+	margin:2% 13%;
 	text-align: left;
 	list-style: square;
-	line-height: 1.5em;
+	line-height: 1.9em;
+	font-size: 0.75em;
 }
 
 /*** Form ***/
@@ -36,17 +34,19 @@ label{
 .sublabel{
 	text-transform: none;
 	position:relative;
-	left:-41%;
 	top:1em;
 }
 
 .namelabel {
-	left:-45%;
+	left:-41.5%;
 	top:0.5em;
 }
-
+.dob{
+	position:relative;
+	left:-36.5%;
+}
 .addresslabel{
-	left:-51.5%;
+	left:-48.5%;
 	top:0.5em;
 }
 
@@ -56,7 +56,7 @@ label{
 }
 
 .phoneEmail{
-	left:-32.4%;
+	left:-26.4%;
 	top:0.5em;
 }
 
@@ -65,7 +65,6 @@ input{
 	margin:2% 1% 1.5% 1%;
 	padding:0.5%;
 	border-radius: 0.3em;
-	box-shadow: 0 0 2em #3d70c3;
 	float:left;
 	font-size: 1em;
 }
@@ -106,7 +105,7 @@ select{
 }
 
 .preferred{
-	width:38%;
+	width:34.35%;
 	margin-top:3.55%;
 }
 
@@ -132,11 +131,9 @@ select{
 	margin-top:1.8%;
 }
 
-.button{
+#signUp .button{
+	margin-left:1%;
 	width:97%;
-	background:#8d8384;
-	border:#8d8384;
-	color:#fff;
 }
 
 .username{
@@ -150,4 +147,85 @@ select{
 .answer{
 	margin:0 1% 2%;
 	width:95.5%;
+}
+
+
+/*** Footer ***/
+footer{
+	top:130%;
+}
+
+@media screen and (max-width:480px){
+	label{
+		display:none;
+	}
+	#reward, #signUp{
+		width:91%;
+	}
+	.name, .city{
+		width:75%;
+	}
+	.preferred{
+		width:96.5%;
+	}
+}
+
+@media screen and (min-width:480px) and (max-width: 700px){
+	label{
+		display:none;
+	}
+	#reward, #signUp{
+		width:91%;
+	}
+	.preferred{
+		width:32%;
+	}
+	.name, .city{
+		width:75%;
+	}
+	footer{
+		margin-top:52%;
+	}
+	
+}
+@media screen and (min-width:700px) and (max-width: 960px){
+	nav{
+		font-size: 1em;
+	}
+	#mobileFooter{
+		display:none;
+	}
+	label{
+		display:none;
+	}
+	.name, .city{
+		width:75%;
+	}
+	.zip{
+		width:30%;
+	}
+	.pre{
+		width:15%;
+	}
+	.suffix{
+		width:20%;
+	}
+}
+
+@media screen and (min-width: 960px) and (max-width:1200px){
+	label{
+		display:none;
+	}
+	#mobileFooter{
+		display:none;
+	}
+	.preferred{
+		width:30%;
+	}
+}
+
+@media screen and (min-width:1200px){
+	#mobileFooter{
+		display:none;
+	}
 }

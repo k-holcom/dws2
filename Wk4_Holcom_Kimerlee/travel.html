@@ -5,7 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Blue Mountain Airlines</title>
 		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
-		<link href="css/style.css" rel="stylesheet" />   
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/travel.css" rel="stylesheet" />   
 	    <!-- Load jQuery JS -->
 	    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	    <!-- Load jQuery UI Main JS  -->
@@ -31,42 +32,28 @@
 
 		<!-- MAIN CONTENT -->
 		<section>
-			<div id="cta">
-				<h2>Quick Flight Search</h2>
+			<table>
+				<tr>
+					<th colspan="3">Don't Know Where To Go? Check Out These Amazing Locations!</th>
+				</tr>
 				
-				<form id="quick">
-					<label>Departing From</label><br />
-					<input type="text" name="depart" placeholder="Pittsburgh(PIT)" /><br /><br />
-					<label>Arriving In</label><br />
-					<input type="text" name="depart" placeholder="Los Angeles(LAX)" /><br /><br />
-					<label>Depart On</label>
-					<label>Return On</label><br />
-					<input type="text" class="datepicker" />
-					<input type="text" class="datepicker" /><br /><br />
-					<label class="passenger">Adults</label>
-					<label class="passenger">Children</label><br/>
-					<input id="adult" type="number" min="1" max="75" />
-					<input id="children" type="number" min="1" max="75" /><br />
-					<input type="submit" class="button" name="search" value="Search Flights" />
-				</form>
-			</div>
+				<tr>
+					<td><a href="http://grand-canyon-park.org/"><img src="img/the-grand-canyon.jpg" alt="Grand Canyon"></a></td>
+					<td><a href="http://www.niagara-usa.com/"><img src="img/niagara-falls.jpg" alt="Niagara Falls"></a></td>
+					<td><a href="http://en.parisinfo.com/"><img src="img/paris.jpg" alt="Paris"></a></td>
+				</tr>
+				<tr>
+					<td><a href="http://www.egypt.travel/"><img src="img/egypt.jpg" alt="Egypt"></a></td>
+					<td><a href="http://www.travelchinaguide.com/"><img src="img/china.jpg" alt="China"></a></td>
+					<td><a href="http://www.justaustralia.org/"><img src="img/australia.jpg" alt="Australia"></a></td>
+				</tr>
+			</table>
+			<br/>
+			<h2>Here is a great video to help you start your adventure</h2>
+			<iframe width="560" height="515" src="https://www.youtube.com/embed/8JfWE9EmzEk" allowfullscreen></iframe>
 		</section>
-		<div id="subsection">
-			<div class="sub left" id="seats">
-				<h3>Check out our luxurious seating</h3>
-			</div>
-			<div class="sub" id="guide">
-				<h3>Don't Know Where to Go?</h3>
-				<h4>Click Here!<br />We'll Help!</h4>
-			</div>
-			<div class="sub" id="rewards">
-				<h3>Sign-up today to start seeing<br />
-					the wonders of the world</h3>
-			</div>
-		</div>
 		<!-- MAIN CONTENT ENDS -->
 		<!-- Footer -->
-
 		<footer>
 			<div id="mobileFooter">
 				<div class="navigation"><a href="index.html">Home</a></div>
@@ -113,19 +100,5 @@
 			</div>
 		</footer>
 		<!-- Footer Ends -->
-
-		<script>
-			$(document).ready(
-  
-			  /* This is the function that will get executed after the DOM is fully loaded */
-			  function () {
-			    $( ".datepicker" ).datepicker({
-			      changeMonth: true,//this option for allowing user to select month
-			      changeYear: true //this option for allowing user to select from year range
-			    });
-			  }
-
-			);
-		</script>
 	</body>
 </html>
